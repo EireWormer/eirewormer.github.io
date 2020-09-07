@@ -1,0 +1,141 @@
+#me-desc {
+    max-width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    @media screen and (min-width: $break-xs) {
+        padding: 1.25rem;
+        font-size: 1rem;
+        text-align: justify;
+        line-height: 1.5;
+        margin: 0 auto 2rem auto;
+    }
+
+    @media screen and (min-width: $break-sm) {
+        margin: 0.3rem auto 2rem auto;
+        max-width: 65%;
+    }
+}
+
+.project-container {
+    width: 100rem;
+    max-width: 100%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 1px solid black;
+
+    .project-img-container {
+        position: relative;
+        min-height: 50vw;
+        overflow: hidden;
+    }
+
+    .project-img {
+        max-width: 90%;
+        max-height: 100%;
+        vertical-align: middle;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .project-info {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .project-title {
+        font-size: 1.75rem;
+    }
+
+    .project-desc {
+        padding: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .project-logo-links {
+        max-width: 6rem;
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    .project-img-second {
+        display: none;
+    }
+
+    @media screen and (min-width: $break-xs) {
+        .project-desc {
+            padding: 1.25rem;
+            font-size: 1rem;
+            text-align: justify;
+            line-height: 1.5;
+            margin: 0 auto 2rem auto;
+        }
+    }
+
+    @media screen and (min-width: $break-sm) {
+        .project-desc {
+            margin: 0.3rem auto 2rem auto;
+            max-width: 80%;
+        }
+    }
+
+    @media screen and (min-width: $break-md) {
+        max-width: 95%;
+        grid-template-columns: 1fr 1fr;
+
+        .project-img-container {
+            min-height: 0vw;
+        }
+
+        .project-img {
+            max-width: 98%;
+            left: 0;
+            right: 0;
+        }
+
+        .project-info {
+            padding-top: 6vw;
+        }
+
+        .project-logo-links {
+            max-width: 7rem;
+        }
+
+        .project-img-first {
+            display: none;
+        }
+
+        .project-img-second {
+            display: inline;
+        }
+    }
+
+    @media screen and (min-width: $break-lg) {
+        max-width: 70%;
+    }
+
+    @media screen and (min-width: $break-xl) {
+        .project-info {
+            padding-top: 4vw;
+        }
+    }
+
+    @media screen and (min-width: $break-xxl) {
+        border-bottom: none;
+
+        .project-info {
+            padding-top: 2vw;
+        }
+    }
+}
+
+.last-project {
+    border-bottom: none;
+}

@@ -1,0 +1,31 @@
+$break-xs: 320px;
+$break-sm: 640px;
+$break-md: 768px;
+$break-lg: 1200px;
+$break-xl: 2000px;
+$break-xxl: 4000px;
+
+* {
+    margin: 0;
+    font-family: "GlacialIndifferenceRegular";
+}
+
+.section-title {
+    text-align-last: center;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 7.5rem auto;
+    
+    span {
+        border-style: solid;
+        border-width: 3px;
+        border-image: linear-gradient(to left, #ffffff 1%, #aeaeae 50%, #ffffff 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
+    }
+
+    @media screen and (min-width: $break-lg) {
+        margin: 5rem auto;
+    }
+}
+
+@import 'page-head';
+@import "project-section";

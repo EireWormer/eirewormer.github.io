@@ -1,0 +1,55 @@
+#page-head {
+    background-color: #110e44;
+    background-image: url("../assets/star-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30%;
+    padding-bottom: 2rem;
+    
+    #name-title {
+        text-align: center;
+        font-weight: normal;
+        font-size: 2.25rem;
+        color: white;
+    }
+
+    #pagehead-icon-links {
+        width: fit-content;
+        margin: .75rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: .75rem;
+    }
+
+    #pagehead-icon-links img {
+        width: 3rem;
+    }
+
+    #cv-download-link {
+        width: fit-content;
+        margin: 0rem auto;
+        color: white;
+    }
+
+    @media screen and (min-width: $break-xs) {
+        #name-title {
+            font-size: 2.5rem;
+        }
+    }
+
+    @media screen and (min-width: $break-sm) {
+        padding-top: 15%;
+
+        #name-title {
+            font-size: 2.7rem;
+        }
+    }
+
+    @media screen and (min-width: $break-lg) {
+        padding-top: 10%;
+
+        #name-title {
+            font-size: 3rem;
+        }
+    }
+}
