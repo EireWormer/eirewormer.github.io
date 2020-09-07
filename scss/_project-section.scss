@@ -26,6 +26,11 @@
     grid-template-columns: 1fr;
     border-bottom: 1px solid black;
 
+    a {
+        decoration: none;
+        color: transparent;
+    }
+
     .project-img-container {
         position: relative;
         min-height: 50vw;
