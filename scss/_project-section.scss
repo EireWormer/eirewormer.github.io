@@ -1,23 +1,3 @@
-#me-desc {
-    max-width: 100%;
-    padding: 1rem;
-    font-size: 1rem;
-    line-height: 1.5;
-
-    @media screen and (min-width: $break-xs) {
-        padding: 1.25rem;
-        font-size: 1rem;
-        text-align: justify;
-        line-height: 1.5;
-        margin: 0 auto 2rem auto;
-    }
-
-    @media screen and (min-width: $break-sm) {
-        margin: 0.3rem auto 2rem auto;
-        max-width: 65%;
-    }
-}
-
 .project-container {
     width: 100rem;
     max-width: 100%;
