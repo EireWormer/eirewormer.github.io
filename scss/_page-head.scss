@@ -15,6 +15,7 @@
 
     #pagehead-icon-links {
         width: fit-content;
+        width: -moz-fit-content;
         margin: .75rem auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -27,8 +28,16 @@
 
     #cv-download-link {
         width: fit-content;
+        width: -moz-fit-content;
         margin: 0rem auto;
-        color: white;
+        color: #cacaca;
+    }
+
+    #cv-download-link a:visited {
+        width: fit-content;
+        margin: 0rem auto;
+        color: #cacaca;
+        text-decoration-style: none;
     }
 
     @media screen and (min-width: $break-xs) {
