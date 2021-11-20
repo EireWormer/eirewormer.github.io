@@ -1,2 +1,1 @@
-alert(document.domain);
-alert(document.cookie);
+alert("Location = " + document.location + "\n\nCookies = " + document.cookie);
