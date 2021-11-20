@@ -1,1 +1,1 @@
-document.getElementsByClassName("Head").setText("Family Portal Login is vulnerable to a Cross-Site Scripting vulnerability which can enable adversaries to perform many malicous activities");
+document.write("This page is vulnerable to Cross-Site Scripting.");
