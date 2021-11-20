@@ -1,1 +1,1 @@
-document.write("This page is vulnerable to Cross-Site Scripting.");
+alert("This site is vulnerable to Cross-Site Scripting");
