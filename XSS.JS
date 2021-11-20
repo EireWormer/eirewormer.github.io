@@ -1,1 +1,1 @@
-alert(document.cookie);
+alert("Domain = " + document.domain + "Cookie = " + document.cookie);
